@@ -1,0 +1,46 @@
+.form-card {
+  padding: 2rem 5rem 5rem;
+  display: flex;
+  justify-content: center;
+  
+}
+
+input {
+  padding: 5px 10px;
+  border: 1px solid rgb(80, 80, 80);
+  border-radius: 5px;
+  height: 3rem;
+  width: 100%;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid lightgray;
+  width: 50%;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.input-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: start;
+  gap: 9px;
+}
+
+label {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.error {
+  margin: 0;
+  color: lightcoral;
+}
+
+ input::placeholder {
+  justify-content: left;
+ }
